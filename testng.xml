@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+
+    <listeners>
+        <listener class-name="com.bank.utils.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.bank.tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
